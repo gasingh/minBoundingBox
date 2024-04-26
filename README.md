@@ -26,8 +26,8 @@ A minimum bounding box solver for point clouds using the principal component ana
     - Now, compute the **eigenVectors**.
     - The eigenvectors are the **principal components** of the 2D data. They span across the directions of minimum and maximum variance in the dataset.
   - _Geometry_
-    - The extents of the dataset along the two principal components is derived by associatively sorting the Projections of the dataset on the respective PC vectors, and their respective projections (dot products).
-    - Finally, some simple Rhinocommon gymnastics to compute a bounding box geometry from the obtained information above.
+    - The extents of the dataset along the two principal components is derived by associatively sorting the Projections of the dataset with the **projection formula** on the respective PC vectors, and their respective **projections** (dot products).
+    - Finally, some simple Rhinocommon gymnastics to **compute bounding box geometry** from the obtained information above.
     - Done!
 
 ### References
