@@ -50,7 +50,12 @@ A minimum bounding box solver for point clouds using the principal component ana
       - [Principal Components Analysis - Georgia Tech - Machine Learning by Udacity | 2015 ](https://www.youtube.com/watch?v=kw9R0nD69OU)
       - [Principal Component Analysis (PCA) by Visually Explained | 2021 ](https://www.youtube.com/watch?v=FD4DeN81ODY)
       - [PCA : the basics - simply explained by TileStats | 2021 ](https://www.youtube.com/watch?v=dz8imS1vwIM)
-
+- _Concept Basics_
+  - _Specific Searches_
+    - Google: eigenvector computation by hand
+      -  [Eigenvector - Definition, Equations, and Examples | ByJus](https://byjus.com/maths/eigenvector/#:~:text=Find%20the%20eigenvalues%20of%20the,is%20associated%20with%20the%20eigenvalue.)
+      - [❖ Finding Eigenvalues and Eigenvectors : 2 x 2 Matrix Example ❖ by patrickJMT | 2014 ](https://www.youtube.com/watch?v=IdsV0RaC9jM)
+      - [lecture14.pdf | Introduction to Numerical Methods and Matlab Programming for Engineers | Department of Mathematics at Ohio University | 2023 ](http://www.ohiouniversityfaculty.com/youngt/IntNumMeth/lecture14.pdf)  
   - _Books_
     - [A Sampler of Useful Computational Tools for Applied Geometry, Computer Graphics, and Image Processing by Daniel Cohen-Or, Chen Greif, Tao Ju, Niloy J. Mitra, Ariel Shamir, Olga Sorkine-Hornung, Hao (Richard) Zhang](https://www.taylorfrancis.com/books/mono/10.1201/b18472/sampler-useful-computational-tools-applied-geometry-computer-graphics-image-processing-tao-ju-niloy-mitra-daniel-cohen-chen-greif-olga-sorkine)
     - [Linear Algebra for Everyone by Gilbert Strang](https://math.mit.edu/~gs/everyone/)
