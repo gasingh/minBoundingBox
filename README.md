@@ -65,7 +65,7 @@ ___
 
 <p align="center" width="100%">
 <kbd><kbd>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="500" />
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="250" />
 </kbd></kbd> </br>
 <b>GIF 1</b> </br> 2D bounding boxes: on shape point clouds
 </p>
@@ -73,9 +73,10 @@ ___
 
 <p align="center" width="100%">
 <kbd><kbd>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture3.gif"  width="500" />
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture3.gif"  width="250" />
 </kbd></kbd> </br>
 <b>GIF 2</b> </br> 2D bounding boxes: on point clouds
 </p>
 
 ___
+(note: GIFs scaled for viewing on a mobile phone)
