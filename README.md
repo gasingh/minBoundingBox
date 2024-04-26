@@ -3,7 +3,7 @@ A minimum bounding box solver for point clouds using the principal component ana
 
 <p align="center" width="100%">
 <kbd><kbd>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="250" />
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="300" />
 </kbd></kbd>
 </p>
 
