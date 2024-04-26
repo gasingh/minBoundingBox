@@ -21,9 +21,9 @@ A minimum bounding box solver for point clouds using the principal component ana
   - Construct a **2D Data Matrix**.
   - Compute the **Covariance Matrix**.
   - The current implementation considers a **sample population**, so all computations as (N-1).
-  - Solve the Covariance Matrix, and solve the linear equation system to obtain the **eigenValues**
-  - Compute the **eigenVectors**.
-  - The eigenvalues are the **principal components** of the 2D data. 
+  - Solve the Linear Equation System obtained by subtracting the **Lambda** from the variances in the Covariance Matrix (across the diagonal of the matrix). Solve the linear equation system to obtain the **eigenValues**.
+  - Now, compute the **eigenVectors**.
+  - The eigenvectors are the **principal components** of the 2D data. They span across the directions of minimum and maximum variance in the dataset.
   - The extents of the dataset along the two principal components is derived by associatively sorting the Projections of the dataset on the respective PC vectors, and their respective projections (dot products).
   - Finally, some simple Rhinocommon gymnastics to compute a bounding box geometry from the obtained information above.
   - Done!
