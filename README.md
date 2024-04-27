@@ -1,6 +1,8 @@
 # minBoundingBox
 A minimum bounding box solver for point clouds using the principal component analysis (PCA) technique. Works with both 2D and 3D point clouds!
 
+'#machine-learning' '#statistics' '#linear-algebra' '#applied-maths' '#3d' '#geometry'
+
 <p align="center" width="100%">
 <kbd><kbd>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="300" />
@@ -79,4 +81,6 @@ ___
 </p>
 
 ___
-(note: GIFs scaled for viewing on a mobile phone)
+Note: GIFs scaled for viewing on a mobile phone.
+3d meshes sourced from [here](https://github.com/nmwsharp/DDGSpring2016/tree/master/meshes)
+
