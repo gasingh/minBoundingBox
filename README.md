@@ -82,5 +82,5 @@ ___
 
 ___
 Note: GIFs scaled for viewing on a mobile phone.
-3d meshes sourced from [here](https://github.com/nmwsharp/DDGSpring2016/tree/master/meshes)
+3d meshes sourced from [here](https://github.com/nmwsharp/DDGSpring2016/tree/master/meshes).
 
