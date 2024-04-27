@@ -59,8 +59,8 @@ A minimum bounding box solver for point clouds using the principal component ana
       - [❖ Finding Eigenvalues and Eigenvectors : 2 x 2 Matrix Example ❖ by patrickJMT | 2014 ](https://www.youtube.com/watch?v=IdsV0RaC9jM)
       - [lecture14.pdf | Introduction to Numerical Methods and Matlab Programming for Engineers | Department of Mathematics at Ohio University | 2023 ](http://www.ohiouniversityfaculty.com/youngt/IntNumMeth/lecture14.pdf)  
   - _Books_
-    - [A Sampler of Useful Computational Tools for Applied Geometry, Computer Graphics, and Image Processing by Daniel Cohen-Or, Chen Greif, Tao Ju, Niloy J. Mitra, Ariel Shamir, Olga Sorkine-Hornung, Hao (Richard) Zhang](https://www.taylorfrancis.com/books/mono/10.1201/b18472/sampler-useful-computational-tools-applied-geometry-computer-graphics-image-processing-tao-ju-niloy-mitra-daniel-cohen-chen-greif-olga-sorkine)
-    - [Linear Algebra for Everyone by Gilbert Strang](https://math.mit.edu/~gs/everyone/)
+    - [A Sampler of Useful Computational Tools for Applied Geometry, Computer Graphics, and Image Processing by Daniel Cohen-Or, Chen Greif, Tao Ju, Niloy J. Mitra, Ariel Shamir, Olga Sorkine-Hornung, Hao (Richard) Zhang | 2015](https://www.taylorfrancis.com/books/mono/10.1201/b18472/sampler-useful-computational-tools-applied-geometry-computer-graphics-image-processing-tao-ju-niloy-mitra-daniel-cohen-chen-greif-olga-sorkine)
+    - [Linear Algebra for Everyone by Gilbert Strang | 2020](https://math.mit.edu/~gs/everyone/)
     - [Geometry for Programmers by Oleksandr Kaleniuk | 2023](https://www.manning.com/books/geometry-for-programmers)
 ___
 
