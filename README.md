@@ -69,7 +69,7 @@ ___
 
 <p align="center" width="100%">
 <kbd><kbd>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="250" />
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="500" />
 </kbd></kbd> </br>
 <b>GIF 1</b> </br> 2D bounding boxes: on shape point clouds
 </p>
@@ -77,16 +77,22 @@ ___
 
 <p align="center" width="100%">
 <kbd><kbd>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture3.gif"  width="250" />
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture3.gif"  width="500" />
 </kbd></kbd> </br>
 <b>GIF 2</b> </br> 2D bounding boxes: on point clouds
 </p>
 
 ___
-Note: GIFs scaled for viewing on a mobile phone.
-3d meshes sourced from [here](https://github.com/nmwsharp/DDGSpring2016/tree/master/meshes).
+<p align="center" width="100%">
+  <b> Note </b> <br>
+  [1] GIFs scaled for viewing on a mobile phone. <br>
+  [2] 3d meshes sourced from <a href="https://github.com/nmwsharp/DDGSpring2016/tree/master/meshes"> here </a>. <br>
+</p>
 ___
-Favourite Book Covers! <br>
-![IMG](https://www.cs.sfu.ca/~haoz/pubs/images/cohenor_book.png)
-![IMG](https://m.media-amazon.com/images/I/71eYVeebbFL._AC_UF1000,1000_QL80_FMwebp_DpWeblab_.jpg)
-
+  
+<p align="center" width="100%">
+<b>Favourite Book Covers!</b> <br>
+<img src="https://www.cs.sfu.ca/~haoz/pubs/images/cohenor_book.png" height="200" />
+<img src="https://m.media-amazon.com/images/I/71eYVeebbFL._AC_UF1000,1000_QL80_FMwebp_DpWeblab_.jpg" height="200" />
+<img src="https://m.media-amazon.com/images/I/6166Bsz0dPL._AC_UF894,1000_QL80_.jpg" height="200" />
+</p>
