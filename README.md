@@ -60,11 +60,9 @@ A minimum bounding box solver for point clouds using the principal component ana
       - [lecture14.pdf | Introduction to Numerical Methods and Matlab Programming for Engineers | Department of Mathematics at Ohio University | 2023 ](http://www.ohiouniversityfaculty.com/youngt/IntNumMeth/lecture14.pdf)  
   - _Books_
     - [A Sampler of Useful Computational Tools for Applied Geometry, Computer Graphics, and Image Processing by Daniel Cohen-Or, Chen Greif, Tao Ju, Niloy J. Mitra, Ariel Shamir, Olga Sorkine-Hornung, Hao (Richard) Zhang | 2015](https://www.taylorfrancis.com/books/mono/10.1201/b18472/sampler-useful-computational-tools-applied-geometry-computer-graphics-image-processing-tao-ju-niloy-mitra-daniel-cohen-chen-greif-olga-sorkine)
-      - ![IMG](https://www.cs.sfu.ca/~haoz/pubs/images/cohenor_book.png)
     - [Linear Algebra for Everyone by Gilbert Strang | 2020](https://math.mit.edu/~gs/everyone/)
     - [Geometry for Programmers by Oleksandr Kaleniuk | 2023](https://www.manning.com/books/geometry-for-programmers)
     - [Coding The Matrix: Linear Algebra Through Computer Science Applications by Philip Klein | 2013](https://codingthematrix.com/)
-      - ![IMG](https://m.media-amazon.com/images/I/71eYVeebbFL._AC_UF1000,1000_QL80_FMwebp_DpWeblab_.jpg)
 ___
 
 <!--- <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture.gif" style="border: #000000 6px outset; width="500";display: block; margin-left: auto; margin-right: auto;" title="BoundingBox2d-01" /> --->
@@ -87,4 +85,8 @@ ___
 ___
 Note: GIFs scaled for viewing on a mobile phone.
 3d meshes sourced from [here](https://github.com/nmwsharp/DDGSpring2016/tree/master/meshes).
+___
+Favourite Book Covers! <br>
+![IMG](https://www.cs.sfu.ca/~haoz/pubs/images/cohenor_book.png)
+![IMG](https://m.media-amazon.com/images/I/71eYVeebbFL._AC_UF1000,1000_QL80_FMwebp_DpWeblab_.jpg)
 
