@@ -7,7 +7,9 @@ A minimum bounding box solver for point clouds using the principal component ana
 </kbd></kbd>
 </p>
 
-`#machine-learning` `#statistics` `#linear-algebra` `#applied-maths` `#3d` `#geometry`
+`#statistics` `#linear-algebra` 
+`#unsupervised learning` `#machine-learning` 
+`#applied-maths` `#3d` `#geometry`
 
 ### Highlights
   - No external libraries such as numpy/scipy are used.
