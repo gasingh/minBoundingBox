@@ -93,6 +93,12 @@ ___
 <b>IMG 1</b> </br> 3D bounding boxes: on point clouds
 </p>
 
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_preview.gif"  width="500" />
+ </br>
+<b>GIF 3</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes!
+</p>
+
 ___
 <p align="center" width="100%">
   <b> Note </b> <br>
