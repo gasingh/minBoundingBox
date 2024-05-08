@@ -72,17 +72,15 @@ ___
 <!--- <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture.gif" style="border: #000000 6px outset; width="500";display: block; margin-left: auto; margin-right: auto;" title="BoundingBox2d-01" /> --->
 
 <p align="center" width="100%">
-<kbd><kbd>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="500" />
-</kbd></kbd> </br>
+</br>
 <b>GIF 1</b> </br> 2D bounding boxes: on shape point clouds
 </p>
 
 
 <p align="center" width="100%">
-<kbd><kbd>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture3.gif"  width="500" />
-</kbd></kbd> </br>
+</br>
 <b>GIF 2</b> </br> 2D bounding boxes: on point clouds
 </p>
 ___
