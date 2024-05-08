@@ -94,9 +94,9 @@ ___
 <b>GIF A</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes! <br> <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview.gif"  width="500" /> <br>
 <b>GIF B</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries <br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143509.jpg" width="500" /> <br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143614.jpg" width="500" /> <br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143626.jpg" width="500" /> <br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150444.jpg" width="500" /> <br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="500" /> <br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150433.jpg" width="500" /> <br>
 <b>IMGs B,C,D</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries
 </p>
 
