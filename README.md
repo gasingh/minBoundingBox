@@ -72,7 +72,7 @@ ___
 <!--- <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture.gif" style="border: #000000 6px outset; width="500";display: block; margin-left: auto; margin-right: auto;" title="BoundingBox2d-01" /> --->
 
 <p align="center" width="100%">
-<b>2D BOUNDING BOXES! (automatically recognized!)</b><br>
+<b>2D BOUNDING BOXES!</b><br><br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="500" />
 </br>
 <b>GIF 1</b> </br> 2D bounding boxes: on shape point clouds
@@ -87,7 +87,7 @@ ___
 
 
 <p align="center" width="100%">
-  <b>3D BOUNDING BOXES! (automatically recognized!)</b><br>
+  <b>3D BOUNDING BOXES!</b><br><br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg"  width="500" />
  </br>
 <b>IMG 1</b> </br> 3D bounding boxes: on point clouds
