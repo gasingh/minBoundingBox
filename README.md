@@ -88,20 +88,16 @@ ___
 
 <p align="center" width="100%">
   <b>3D BOUNDING BOXES!</b><br><br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg"  width="500" />
- </br>
-<b>IMG 1</b> </br> 3D bounding boxes: on point clouds
-</p>
-<br>
-<p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg"  width="500" /> </br>
+<b>IMG A</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes! <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_preview.gif"  width="500" /> <br>
-<b>GIF A</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes! <br>
+<b>GIF A</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes! <br> <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview.gif"  width="500" /> <br>
 <b>GIF B</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143509.jpg" width="500" /> <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143614.jpg" width="500" /> <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143626.jpg" width="500" /> <br>
-<b>IMGs 2,3,4</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries
+<b>IMGs B,C,D</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries
 </p>
 
 ___
