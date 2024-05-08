@@ -85,6 +85,13 @@ ___
 </kbd></kbd> </br>
 <b>GIF 2</b> </br> 2D bounding boxes: on point clouds
 </p>
+___
+
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg"  width="500" />
+ </br>
+<b>IMG 1</b> </br> 3D bounding boxes: on point clouds
+</p>
 
 ___
 <p align="center" width="100%">
