@@ -2,9 +2,9 @@
 A minimum bounding box solver for point clouds using the principal component analysis (PCA) technique. Works with both 2D and 3D point clouds!
 
 <p align="center" width="100%">
-<kbd><kbd>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="300" />
-</kbd></kbd>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143614.jpg" width="300" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143626.jpg" width="300" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="300" /> <br>
 </p>
 
 `#statistics` `#linear-algebra` 
@@ -90,11 +90,16 @@ ___
  </br>
 <b>IMG 1</b> </br> 3D bounding boxes: on point clouds
 </p>
-
+<br>
 <p align="center" width="100%">
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_preview.gif"  width="500" />
- </br>
-<b>GIF 3</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes!
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_preview.gif"  width="500" /> <br>
+<b>GIF A</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes! <br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview.gif"  width="500" /> <br>
+<b>GIF B</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries <br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143509.jpg" width="500" /> <br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143614.jpg" width="500" /> <br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143626.jpg" width="500" /> <br>
+<b>IMGs 2,3,4</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries
 </p>
 
 ___
