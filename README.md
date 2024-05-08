@@ -15,9 +15,9 @@ A minimum bounding box solver for point clouds using the principal component ana
   - The algorithm is integrated inside Rhino 3d, using the Rhinocommon API. 
 
 ### Intent
-  - Rhino v7 doesnot support scientific computing libraries natively, as it runs IronPython.
   - I'm curious about learning how algorithms work!
   - Hence, this exploration employing matrices, and linear algebra!
+  - Rhino v7 doesnot support scientific computing libraries natively, as it runs IronPython. So i wrote a matrices and statistical library, and implemented eigenvalue and eigenvector solvers to emable computation of 2x2 and 3x3 matrices!
 
 ### Pseudocode
   - _Math_
