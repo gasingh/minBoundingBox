@@ -2,8 +2,8 @@
 A minimum bounding box solver for point clouds using the principal component analysis (PCA) technique. Works with both 2D and 3D point clouds!
 
 <p align="center" width="100%">
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143614.jpg" width="300" /> 
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview_143626.jpg" width="300" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="300" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150433.jpg" width="300" /> 
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="300" /> <br>
 </p>
 
