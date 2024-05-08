@@ -7,11 +7,7 @@ A minimum bounding box solver for point clouds using the principal component ana
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="300" /> <br>
 </p>
 
-`#statistics` `#linear-algebra` 
-
-`#unsupervised learning` `#machine-learning` 
-
-`#applied-maths` `#3d` `#geometry`
+`#statistics` `#linear-algebra` `#unsupervised learning` `#ML` `#applied-maths` `#3d` `#geometry`
 
 ### Highlights
   - No external libraries such as numpy/scipy are used.
