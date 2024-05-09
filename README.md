@@ -1,5 +1,6 @@
 # minBoundingBox
-A minimum bounding box solver for point clouds using the principal component analysis (PCA) technique. Works with both 2D and 3D point clouds!
+
+A minimum bounding box solver employing principal component analysis (PCA). I coded all the math from scratch including building up a matrix library, and necessary statistical analysis functions for computation of eigenvalues and eigenvectors for 2x2 and 3x3 matrices. The 3X3 eigenvalues are computed using the Faddeev–LeVerrier algorithm, and the Cardano's equation. The 3X3 eigenvectors are computed using Gaussian Elimination. Works with both 2D and 3D point clouds, and meshes! This is an exercise in mathematical curiosity!
 
 <p align="center" width="100%">
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="300" /> 
