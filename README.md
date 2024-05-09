@@ -105,9 +105,6 @@ ___
 <b>IMG E</b> </br> 3D bounding boxes: on Meshes: bounding boxes on kettle geometries
 </p>
 
-___
-
-
 <p align="center" width="100%">
 <img src="https://github.com/gasingh/ICP-3D/blob/main/Capture_silencedPCA_solver_02_snip-00_web.JPG" width="800" /> </br>
 <b>IMG F</b> </br> Screenshot from Rhino3D with the PCA integrated with Rhinocommon to report & augment geometries
