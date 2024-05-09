@@ -84,7 +84,7 @@ ___
 
 
 <p align="center" width="100%">
-  <b>3D BOUNDING BOXES!</b><br><br>
+  <b>3D BOUNDING BOXES on Point Clouds!</b><br><br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg"  width="500" /> </br>
 <b>IMG A</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes! <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_preview.gif"  width="500" /> <br>
@@ -100,8 +100,17 @@ ___
 ___
 
 <p align="center" width="100%">
+  <b>3D BOUNDING BOXES on Meshes!</b><br><br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettleConfig_preview.gif"  width="500" /> </br>
+<b>IMG E</b> </br> 3D bounding boxes: on Meshes: bounding boxes on kettle geometries
+</p>
+
+___
+
+
+<p align="center" width="100%">
 <img src="https://github.com/gasingh/ICP-3D/blob/main/Capture_silencedPCA_solver_02_snip-00_web.JPG" width="800" /> </br>
-<b>IMG E</b> </br> Screenshot from Rhino3D with the PCA integrated with Rhinocommon to report & augment geometries
+<b>IMG F</b> </br> Screenshot from Rhino3D with the PCA integrated with Rhinocommon to report & augment geometries
 </p>
 
 ___
