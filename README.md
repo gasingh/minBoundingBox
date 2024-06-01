@@ -11,17 +11,17 @@ A minimum bounding box solver for Rhino3D. All the math is coded from scratch in
 
 `#statistics` `#linear-algebra` `#unsupervised learning` `#ML` `#applied-maths` `#3d` `#computational geometry`
 
-## Toolkit
-The minimum bounding box toolkit exposes the following new functionalities inside Rhino3D:
+## Toolkit Purpose
+The minimum bounding box toolkit exposes the following new functionalities inside Rhino3D as commands:
 1. 2D Symmetry planes from point clouds and 3d mesh data.
 2. Minimum Bounding Boxes in 3D.
 3. The three principal axes from any input geometry.
 
-## Significance
-1. This can be  useful in deriving mininum bounding boxes to aid in 3d modeling purpoes.
-2. Volumetric estimations, and packaging estimations of digital artifacts.
+## Use cases
+1. 3D Axis Systems: This can be a very useful tool in deriving automatic axis systems to aid in precision 3d modeling tasks.
+2. Estimation and Analysis: Volumetric estimations, and packaging estimations of digital artifacts.
 
-## Documentation of functionalities 
+## Documentation 
 ### i. 2d minimal bounding boxes
 
 <p align="center" width="100%">
@@ -39,20 +39,20 @@ GIF 1, 2: 2D bounding boxes: on point clouds(L) & on point clouds(R)
 IMG(L) GIF(R): 3D bounding boxes: on point clouds: principal symmetry planes!<br>
 </p>
 
-### iii. 3d minimal bounding boxes on point clouds, and 3d axis outputs
+### iii. 3d axis system generation
 
 <p align="center" width="100%">
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview.gif"  width="300" /> <br>
 GIF B: 3D bounding boxes: on point clouds: bounding boxes on kettle geometries <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150444.jpg" width="300" /> 
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="300" />
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150433.jpg" width="300" /> <br>
 IMGs B,C,D:  3D bounding boxes: on point clouds: bounding boxes on kettle geometries
 </p>
 
-### iv. 3d minimal bounding boxes on Meshes
+### iv. 3d minimal bounding boxes on Point Clouds and Meshes
 
 <p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="300" />
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettleConfig_preview.gif"  width="300" /> </br>
 IMG E: 3D bounding boxes: on Meshes: bounding boxes on kettle geometries
 </p>
