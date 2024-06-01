@@ -1,4 +1,4 @@
-# minBoundingBox
+# Minimum Bounding Box 
 
 A minimum bounding box solver for Rhino3D. I coded all the math from scratch including building up a matrix library, and necessary statistical analysis functions for computation of eigenvalues and eigenvectors for 2x2 and 3x3 matrices. Works with both 2D and 3D point clouds, and meshes! This is an exercise in mathematical curiosity!
 
