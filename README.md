@@ -1,6 +1,16 @@
 # minBoundingBox
 
-A minimum bounding box solver employing principal component analysis (PCA). I coded all the math from scratch including building up a matrix library, and necessary statistical analysis functions for computation of eigenvalues and eigenvectors for 2x2 and 3x3 matrices. The 3X3 eigenvalues are computed using the Faddeev–LeVerrier algorithm, and the Cardano's equation. The 3X3 eigenvectors are computed using Gaussian Elimination. Works with both 2D and 3D point clouds, and meshes! This is an exercise in mathematical curiosity!
+A minimum bounding box solver for Rhino3D. I coded all the math from scratch including building up a matrix library, and necessary statistical analysis functions for computation of eigenvalues and eigenvectors for 2x2 and 3x3 matrices. Works with both 2D and 3D point clouds, and meshes! This is an exercise in mathematical curiosity!
+
+## Tool Functionalities
+The minimum bounding box toolkit exposes the following new functionalities inside Rhino3D:
+1. 2D Symmetry planes from point clouds and 3d mesh data.
+2. Minimum Bounding Boxes in 3D.
+3. The three principal axes from any input geometry.
+
+## Usage
+1. This can be  useful in deriving mininum bounding boxes to aid in 3d modeling purpoes.
+2. Volumetric estimations, and packaging estimations of digital artifacts.
 
 <p align="center" width="100%">
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="300" /> 
@@ -10,30 +20,56 @@ A minimum bounding box solver employing principal component analysis (PCA). I co
 
 `#statistics` `#linear-algebra` `#unsupervised learning` `#ML` `#applied-maths` `#3d` `#geometry`
 
-### Highlights
-  - No external libraries such as numpy/scipy are used.
-  - The solution is completely in Python, with no library calls.
-  - The algorithm is integrated inside Rhino 3d, using the Rhinocommon API. 
+## Demonstration of functionalities 
+### i. 2d minimal bounding boxes
 
-### Intent
-  - I'm curious about learning how algorithms work!
-  - Hence, this exploration employing matrices, and linear algebra!
-  - Rhino v7 doesnot support scientific computing libraries natively, as it runs IronPython. So i wrote a matrices and statistical library, and implemented eigenvalue and eigenvector solvers to emable computation of 2x2 and 3x3 matrices!
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="300" />
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture3.gif"  width="300" />
+</br>
+GIF 1, 2: 2D bounding boxes: on point clouds(L) & on point clouds(R)
+</p>
 
-### Pseudocode
-  - _Math_
-    - Construct a **2D Data Matrix**.
-    - Compute the **Covariance Matrix**.
-    - The current implementation considers a **sample population**, so all computations as (N-1).
-    - Solve the Linear Equation System obtained by subtracting the **Lambda** from the variances in the Covariance Matrix (across the diagonal of the matrix). Solve the linear equation system to obtain the **eigenValues**.
-    - Now, compute the **eigenVectors**.
-    - The eigenvectors are the **principal components** of the 2D data. They span across the directions of minimum and maximum variance in the dataset.
-  - _Geometry_
-    - The extents of the dataset along the two principal components is derived by associatively sorting the Projections of the dataset with the **projection formula** on the respective PC vectors, and their respective **projections** (dot products).
-    - Finally, some simple Rhinocommon gymnastics to **compute bounding box geometry** from the obtained information above.
-    - Done!
+### ii. 3d symmetry planes across point clouds
 
-### References
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg"  width="300" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_preview.gif"  width="300" /> <br>
+IMG(L) GIF(R): 3D bounding boxes: on point clouds: principal symmetry planes!<br>
+</p>
+
+### iii. 3d minimal bounding boxes on point clouds, and 3d axis outputs
+
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview.gif"  width="300" /> <br>
+GIF B: 3D bounding boxes: on point clouds: bounding boxes on kettle geometries <br>
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150444.jpg" width="300" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="300" />
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150433.jpg" width="300" /> <br>
+IMGs B,C,D:  3D bounding boxes: on point clouds: bounding boxes on kettle geometries
+</p>
+
+### iv. 3d minimal bounding boxes on Meshes
+
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettleConfig_preview.gif"  width="300" /> </br>
+IMG E: 3D bounding boxes: on Meshes: bounding boxes on kettle geometries
+</p>
+
+## Rhino Integration
+
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/ICP-3D/blob/main/Capture_silencedPCA_solver_02_snip-00_web.JPG" width="800" /> </br>
+IMG F: Screenshot from Rhino3D with the PCA integrated with Rhinocommon to report & augment geometries
+</p>
+
+___
+
+<details>
+  <summary><h4> References </h4></summary>
+  
+  REFERENCES
+  
   - _Websites_
     - [The Mathematics Behind Principal Component Analysis](https://towardsdatascience.com/the-mathematics-behind-principal-component-analysis-fff2d7f4b643)
     - [What is the purpose of subtracting the mean from data when standardizing?](https://math.stackexchange.com/questions/317114/what-is-the-purpose-of-subtracting-the-mean-from-data-when-standardizing)
@@ -64,59 +100,6 @@ A minimum bounding box solver employing principal component analysis (PCA). I co
     - [Linear Algebra for Everyone by Gilbert Strang | 2020](https://math.mit.edu/~gs/everyone/)
     - [Geometry for Programmers by Oleksandr Kaleniuk | 2023](https://www.manning.com/books/geometry-for-programmers)
     - [Coding The Matrix: Linear Algebra Through Computer Science Applications by Philip Klein | 2013](https://codingthematrix.com/)
-___
-
-<!--- <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture.gif" style="border: #000000 6px outset; width="500";display: block; margin-left: auto; margin-right: auto;" title="BoundingBox2d-01" /> --->
-
-<p align="center" width="100%">
-<b>2D BOUNDING BOXES!</b><br><br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="500" />
-</br>
-<b>GIF 1</b> </br> 2D bounding boxes: on shape point clouds
-</p>
-<p align="center" width="100%">
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture3.gif"  width="500" />
-</br>
-<b>GIF 2</b> </br> 2D bounding boxes: on point clouds
-</p>
-
-___
-
-
-<p align="center" width="100%">
-  <b>3D BOUNDING BOXES on Point Clouds!</b><br><br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg"  width="500" /> </br>
-<b>IMG A</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes! <br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_preview.gif"  width="500" /> <br>
-<b>GIF A</b> </br> 3D bounding boxes: on point clouds: principal symmetry planes! <br> <br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview.gif"  width="500" /> <br>
-<b>GIF B</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries <br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150444.jpg" width="500" /> <br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="500" /> <br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150433.jpg" width="500" /> <br>
-<b>IMGs B,C,D</b> </br> 3D bounding boxes: on point clouds: bounding boxes on kettle geometries
-</p>
-
-___
-
-<p align="center" width="100%">
-  <b>3D BOUNDING BOXES on Meshes!</b><br><br>
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettleConfig_preview.gif"  width="500" /> </br>
-<b>IMG E</b> </br> 3D bounding boxes: on Meshes: bounding boxes on kettle geometries
-</p>
-
-<p align="center" width="100%">
-<img src="https://github.com/gasingh/ICP-3D/blob/main/Capture_silencedPCA_solver_02_snip-00_web.JPG" width="800" /> </br>
-<b>IMG F</b> </br> Screenshot from Rhino3D with the PCA integrated with Rhinocommon to report & augment geometries
-</p>
-
-___
-
-<p align="center" width="100%">
-  <b> Note </b> <br>
-  [1] GIFs scaled for viewing on a mobile phone. <br>
-  [2] 3d meshes sourced from <a href="https://github.com/nmwsharp/DDGSpring2016/tree/master/meshes"> here </a>. <br>
-</p>
 
 ___
   
@@ -126,3 +109,13 @@ ___
 <img src="https://m.media-amazon.com/images/I/71eYVeebbFL._AC_UF1000,1000_QL80_FMwebp_DpWeblab_.jpg" height="200" />
 <img src="https://m.media-amazon.com/images/I/6166Bsz0dPL._AC_UF894,1000_QL80_.jpg" height="200" />
 </p>
+
+___
+
+<p align="center" width="100%">
+  <b> Mesh Resources </b> <br>
+  [1] 3d meshes sourced from <a href="https://github.com/nmwsharp/DDGSpring2016/tree/master/meshes"> DDG2016 </a>. <br>
+</p>
+
+
+</details>
