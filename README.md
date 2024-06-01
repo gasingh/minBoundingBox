@@ -21,7 +21,7 @@ The minimum bounding box toolkit exposes the following new functionalities insid
 1. This can be  useful in deriving mininum bounding boxes to aid in 3d modeling purpoes.
 2. Volumetric estimations, and packaging estimations of digital artifacts.
 
-## Demonstration of functionalities 
+## Documentation of functionalities 
 ### i. 2d minimal bounding boxes
 
 <p align="center" width="100%">
