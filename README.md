@@ -2,23 +2,24 @@
 
 A minimum bounding box solver for Rhino3D. I coded all the math from scratch including building up a matrix library, and necessary statistical analysis functions for computation of eigenvalues and eigenvectors for 2x2 and 3x3 matrices. Works with both 2D and 3D point clouds, and meshes! This is an exercise in mathematical curiosity!
 
-## Tool Functionalities
+<p align="center" width="100%">
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="200" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150433.jpg" width="200" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="200" /> 
+<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg" width="200" /> <br>
+</p>
+
+`#statistics` `#linear-algebra` `#unsupervised learning` `#ML` `#applied-maths` `#3d` `#geometry`
+
+## Toolkit
 The minimum bounding box toolkit exposes the following new functionalities inside Rhino3D:
 1. 2D Symmetry planes from point clouds and 3d mesh data.
 2. Minimum Bounding Boxes in 3D.
 3. The three principal axes from any input geometry.
 
-## Usage
+## Significance
 1. This can be  useful in deriving mininum bounding boxes to aid in 3d modeling purpoes.
 2. Volumetric estimations, and packaging estimations of digital artifacts.
-
-<p align="center" width="100%">
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="300" /> 
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150433.jpg" width="300" /> 
-<img src="https://github.com/gasingh/minBoundingBox/blob/main/eigenValues%26EigenVectors_03c_2x2implementation_ptInput2g__img2_solved_fileShot-02_trim.JPG" width="300" /> <br>
-</p>
-
-`#statistics` `#linear-algebra` `#unsupervised learning` `#ML` `#applied-maths` `#3d` `#geometry`
 
 ## Demonstration of functionalities 
 ### i. 2d minimal bounding boxes
