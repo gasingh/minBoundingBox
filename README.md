@@ -28,7 +28,7 @@ The minimum bounding box toolkit exposes the following new functionalities insid
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture2.gif" width="300" />
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240426_minimumBoundingBox_simpleCapture3.gif"  width="300" />
 </br>
-GIF 1, 2: 2D bounding boxes: on point clouds(L) & on point clouds(R)
+<i> GIF 1, 2: 2D bounding boxes: on point clouds(L) & on point clouds(R) </i>
 </p>
 
 ### ii. 3d symmetry planes across point clouds
@@ -36,17 +36,17 @@ GIF 1, 2: 2D bounding boxes: on point clouds(L) & on point clouds(R)
 <p align="center" width="100%">
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_3dboundingBox_ViewCapture20240508_031153.jpg"  width="300" /> 
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_preview.gif"  width="300" /> <br>
-IMG(L) GIF(R): 3D bounding boxes: on point clouds: principal symmetry planes!<br>
+<i> IMG(L) GIF(R): 3D bounding boxes: on point clouds: principal symmetry planes! </i>  <br>
 </p>
 
 ### iii. 3d axis system generation
 
 <p align="center" width="100%">
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview.gif"  width="300" /> <br>
-GIF B: 3D bounding boxes: on point clouds: bounding boxes on kettle geometries <br>
+GIF B: 3D bounding boxes: on point clouds: bounding boxes on kettle geometries </i> <br>
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150444.jpg" width="300" /> 
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150433.jpg" width="300" /> <br>
-IMGs B,C,D:  3D bounding boxes: on point clouds: bounding boxes on kettle geometries
+<i> IMGs B,C,D:  3D bounding boxes: on point clouds: bounding boxes on kettle geometries </i> <br>
 </p>
 
 ### iv. 3d minimal bounding boxes on Point Clouds and Meshes
@@ -54,14 +54,14 @@ IMGs B,C,D:  3D bounding boxes: on point clouds: bounding boxes on kettle geomet
 <p align="center" width="100%">
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettle_preview2_150421.jpg" width="300" />
 <img src="https://github.com/gasingh/minBoundingBox/blob/main/240508_pca_3d_bBox_kettleConfig_preview.gif"  width="300" /> </br>
-IMG E: 3D bounding boxes: on Meshes: bounding boxes on kettle geometries
+<i>IMG E: 3D bounding boxes: on Meshes: bounding boxes on kettle geometries </i>
 </p>
 
 ## Rhino Integration
 
 <p align="center" width="100%">
 <img src="https://github.com/gasingh/ICP-3D/blob/main/Capture_silencedPCA_solver_02_snip-00_web.JPG" width="800" /> </br>
-IMG F: Screenshot from Rhino3D with the PCA integrated with Rhinocommon to report & augment geometries
+<i> IMG F: Screenshot from Rhino3D with the PCA integrated with Rhinocommon to report & augment geometries </i> <br>
 </p>
 
 ___
