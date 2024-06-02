@@ -18,8 +18,8 @@ The minimum bounding box toolkit exposes the following new functionalities insid
 3. The three principal axes from any input geometry.
 
 ## Use cases
-1. 3D Axis Systems: This can be a very useful tool in deriving automatic axis systems to aid in precision 3d modeling tasks.
-2. Estimation and Analysis: Volumetric estimations, and packaging estimations of digital artifacts.
+1. **3D Axis Systems**: This can be a very useful tool in deriving automatic axis systems to aid in precision 3d modeling tasks.
+2. **Estimation and Analysis**: Volumetric estimations, and packaging estimations of digital artifacts.
 
 ## Documentation 
 ### i. 2d minimal bounding boxes
