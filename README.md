@@ -57,6 +57,7 @@ GIF B: 3D bounding boxes: on point clouds: bounding boxes on kettle geometries <
 <i>IMG E: 3D bounding boxes: on Meshes: bounding boxes on kettle geometries </i>
 </p>
 
+<!--
 ## Rhino Integration
 
 <p align="center" width="100%">
@@ -120,3 +121,5 @@ ___
 
 
 </details>
+
+-->
